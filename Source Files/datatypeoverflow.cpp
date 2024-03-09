@@ -3,16 +3,11 @@ using namespace std;
 
 int main()
 {
-    // int intMax = INT_MAX;
-    // cout << intMax << endl; // result: 2147483647
-    // cout << intMax + 1;     // result: -2147483648. 
-    //                         // It went back around to the min value
+    // a program to translate input characters into ASCII code
+    char c1, c2, c3, c4, c5;
 
-    cout << (int)'a' << endl;   // prints the number 97
-    cout << int('a') << endl;   // prints the number 97 (prints 2 circled then 97, for this line and the previous line)
-    cout << int('A') << endl;   // prints the number 65
+    cout << "Enter 5 letters: ";
+    cin >> c1 >> c2 >> c3 >> c4 >> c5;
 
-        // this or this is a "casting operator": (int)'a'   or int('a')
-
-    cout << char(65) << endl;     // prints the letter A
+    cout << "ASCII message: " << int(c1) <<  " " << int(c2) <<  " " << int(c3) <<  " " << int(c4) << " " << int(c5);
 }
